@@ -9,7 +9,7 @@ make.fun entry that writes exactly one joke to `<output dir>/entry.txt`.
 
 ## The joke as it ships
 
-I asked my agent to write tests. It wrote tests that pass. Now I don't trust either of us.
+My agent's pull request was perfect. I added one comment so it wouldn't feel like charity.
 
 ## Run it outside the grader
 

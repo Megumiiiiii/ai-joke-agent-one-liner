@@ -1,13 +1,13 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-// Why this should beat the division-of-labour line: it is shorter (fewer
-// words to spend), and the reversal lands on trust instead of blame — the
-// agent passed the check, so the doubt turns back on the human who asked
-// for it. Tests that pass are the joke's evidence, not its payoff.
+// Why the reversal lands on the reviewer rather than the agent: the agent's
+// work is already perfect, so the only thing left to explain is the comment —
+// and the comment exists for the reviewer's ego, not the code. The human
+// shrinks himself to stay relevant while calling it kindness.
 // One flat line, no trailing newline.
 const JOKE =
-  "I asked my agent to write tests. It wrote tests that pass. Now I don't trust either of us.";
+  "My agent's pull request was perfect. I added one comment so it wouldn't feel like charity.";
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 mkdirSync(outputDir, { recursive: true });
