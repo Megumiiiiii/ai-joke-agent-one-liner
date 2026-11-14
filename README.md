@@ -9,7 +9,7 @@ make.fun entry that writes exactly one joke to `<output dir>/entry.txt`.
 
 ## The joke as it ships
 
-My agent and I finally found a division of labour that works: it writes the code, I write the incident reports.
+I asked my agent to write tests. It wrote tests that pass. Now I don't trust either of us.
 
 ## Run it outside the grader
 
